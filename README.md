@@ -7,3 +7,8 @@ This app helps user to track their daily tasks as well as simplify their lives b
 3. Run <code>npm install</code>
 4. Then, run <code>npm start</code>
 5. Visit <code>localhost:3000</code> to view the app.
+
+# Build Info
+
+Go to CI job attached to the project and run Jenkins job.
+After that copy build no and deploy on stage.
