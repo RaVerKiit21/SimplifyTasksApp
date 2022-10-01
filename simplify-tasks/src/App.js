@@ -22,7 +22,7 @@ function App() {
        {tasks.length > 0 ? ( <ul>
           {
              tasks.map((task,idx) => {
-              return <li key={idx}>{task}</li>;
+              return <li key={idx}>{task} <button>Edit</button> </li>;
             })
           }
        </ul>) : 'No tasks found!!'}
